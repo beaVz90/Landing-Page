@@ -1,3 +1,137 @@
 * {
-    /* background-color: aqua; */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.navcontainer {
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul{
+ display: flex;
+ flex-direction: row;
+ gap: 30px;
+ list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.logo img {
+    height: 60px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0;
+}
+
+h1 {
+    margin-bottom: 5px;
+    font-size: 48px;
+    font-weight: 1000;
+}
+
+button:hover {
+    background-color: #5f99f6;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    color: #F9FAF8;
+}
+
+.headercontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+
+}
+
+.headertext {
+    height: 150px;
+    width: 232.725px;
+    flex-grow: 1;
+}
+
+.headertext p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 10px;
+}
+
+.headerimg img {
+    height: 150px;
+    border-radius: 5%;
+}
+
+.boxsection {
+    background-color: white;
+}
+
+h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.boxcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    height: 250px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+}
+
+.boxes img {
+    height: 125px;
+    width: auto;
+    border-radius: 5%;
 }
